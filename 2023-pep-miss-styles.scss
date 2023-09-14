@@ -41,10 +41,10 @@ $icon-bkg: rgba(15, 15, 76,.05);
 /* ------------- Fixed Tabs -------------- */
 #fixed-tabs{position:fixed;bottom:0;right:0;width:100%;text-align:center;line-height:1;z-index:110000;display:flex}
 #fixed-tabs a{font-size:13px;color:$text;font-weight:700;text-transform:uppercase;padding:14px 0;flex: 0 1 25%}
-#fixed-tabs .map {background-color:$primary;}
+#fixed-tabs .map {background-color:#eaeef2;color: #000;}
 #fixed-tabs .call {background-color:$secondary;}
 #fixed-tabs .ra {flex: 0 1 50%; background-color: $primary;}
-#fixed-tabs .ra, #fixed-tabs .call, #fixed-tabs .map {color: #fff;}
+#fixed-tabs .ra, #fixed-tabs .call {color: #fff;}
 @media (min-width: 1031px) {
 #fixed-tabs{display:none}
 }
@@ -188,7 +188,7 @@ p {
         align-items: center;
         justify-content:center;
         align-self: center;
-        #top-text {text-align:left;line-height: 1;font-size: 45px;color: #000;font-weight: 500; margin: 10px 50px;}
+        #top-text {text-align:left;line-height: 1;font-size: 45px;color: #000;font-weight: 500; margin: 10px 50px 10px 100px;}
         h1 {color: #fff;margin: 20px 0;
             text-shadow: 5px 5px 5px black; font: 800 125px/1 $font;text-align:left;
              big {color: $primary;width: 100%;display:block;font-size: 175px;}
@@ -239,7 +239,7 @@ p {
             .smalltext { margin-top: 30px; color: $text; font-size: 20px; font-weight: 700; font-style: normal; letter-spacing: normal; line-height: 1; }
         }
     }
-    .use-it-very-bottom-text .big {color: #fff !important; max-width: 980px;margin: auto;margin-top: 50px;font-size: 36px;font-weight: 400;font-family: $font;}
+    .use-it-very-bottom-text .big {line-height: normal;color: #fff !important; max-width: 1100px;margin: auto;margin-top: 50px;font-size: 36px;font-weight: 400;font-family: $font;}
 }
 
 footer :is(input, textarea) {background-color: #f0f0f0 !important;}
@@ -386,8 +386,8 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
                 &:nth-of-type(2) {margin: 30px auto;}
             }
         }
-        .use-it-very-bottom-text {
-            .big {max-width: none;}
+        .use-it-very-bottom-text {margin-bottom: 0!important;
+            .big {max-width: none;font-size: 32px;}
         }
     }
     #banner-counter {
@@ -397,8 +397,8 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
             }
         }
     }
-    #nav {justify-content: space-around;}
-    #nav .logo{margin:0}
+    header #nav {padding: 0;justify-content: space-around;}
+    header #nav .logo{margin:15px auto;}
     #nav .header-buttons{margin:0;order:0;flex:0 1 220px}
     header #nav a.btn {display:none;}
     .phone{font-size:30px;margin:0}
@@ -413,6 +413,7 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
     .double-list .flex-ed {flex-wrap: wrap; justify-content: center;
         .option-list {margin: 40px auto;}
     }
+    .smile .form .simple .btn {margin-top: 15px;}
     footer .flex-ed{flex-wrap:wrap;max-width:700px;margin:auto}
     footer .split {justify-content: center;margin-bottom: 0;}
     footer .split article {flex-basis: auto;flex: 1;}
@@ -420,7 +421,6 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
 
 @media (max-width: 890px) {
     #nav .header-buttons .btn,#nav .header-buttons .btn-alt{width:180px}
-    #nav .logo{max-width:350px}
 }
 @media (max-width: 768px) {
     .factors {
@@ -465,7 +465,7 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
 
 @media (max-width: 590px) {
     #nav {justify-content: center;}
-    #nav .logo img {max-width: 300px;margin: 0 auto 15px;}
+    #nav .logo img {max-width: 300px;margin: 0 auto;}
     h2{margin-top:20px;font-size:50px;}
     .factors h2 {font-size: 42px;}
     #services-custom{padding:0}
@@ -487,7 +487,6 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
 @media (max-width: 500px) {
     .use-it-top-image div figcaption {font-size: 14px;}
     .double-list .flex-ed .option-list .list-body ul li {margin: 10px auto; font-size: 20px; padding-left: 30px;}
-    #nav {gap: 10px;}
 }
 
 @media (max-width: 430px) {
