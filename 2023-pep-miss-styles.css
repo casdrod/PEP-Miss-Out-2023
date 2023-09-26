@@ -1705,10 +1705,10 @@ hr {
     max-height: none;
   }
   #banner article {
-    padding: 50px 20px;
+    padding: 30px 10px 50px;
   }
   #banner article h1 {
-    font-size: 86px;
+    font-size: 73px;
     text-align: center;
   }
   #banner article h1 big {

@@ -232,7 +232,7 @@ p {
         input[type=checkbox]{height: 30px; width: 30px; display: inline-block; vertical-align: middle;}
         input[type=checkbox] + label{font-size: 20px; color: $text; margin-left: 5px;}
         .big-label{display: block; font-size: 20px; font-weight: 700; color: $text;text-align:left;}
-        .simple .btn {width: 100%;}
+        .simple .btn {width: 100%;margin-top: 10px;}
         ::-webkit-input-placeholder { color: $text; }
         :-moz-placeholder { color: $text; }
         ::-moz-placeholder { color: $text; }
@@ -378,8 +378,8 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
     .smile .top #banner-flex article p {text-align:center;}
     header #nav .phone {display:none;}
     #banner {max-height: none;
-        article {padding: 50px 20px;
-            h1 {font-size: 86px;text-align:center;
+        article {padding: 30px 10px 50px;
+            h1 {font-size: 73px;text-align:center;
                 big {font-size: 130px;}
             }
             p {font-size: 29px;}
