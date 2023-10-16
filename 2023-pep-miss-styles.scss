@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;700&display=swap');
-
 .progress,sub,sup{vertical-align:baseline}.block,.elem-left,.elem-right,article,aside,details,figcaption,figure,footer,header,hr,main,menu,nav,section,summary{display:block}hr,sub,sup{position:relative}body,figure{margin:0}button,hr,input,select{overflow:visible}[type=checkbox],[type=radio],legend{box-sizing:border-box;padding:0}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;text-size-adjust:100%;box-sizing:border-box;font-size:100%}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:0 0 .67em}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:60%;line-height:0}sub{bottom:-.25em}sup{top:-.45em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}hr{box-sizing:content-box;height:0;border:0}button,input,select,textarea{font:inherit;line-height:initial;margin:0}optgroup{font-weight:700}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{cursor:pointer}[disabled]{cursor:default}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button;-moz-appearance:button;appearance:button;border:0}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}button:-moz-focusring,input:-moz-focusring{outline:ButtonText dotted 1px}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{color:inherit;display:table;max-width:100%;white-space:normal}textarea{overflow:auto}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;-moz-appearance:textfield;appearance:textfield}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none;appearance:none}*,::before,::after{box-sizing:border-box;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.clearfix:before,.clearfix:after{display:table;content:" "}.clearfix:after{clear:both}address{font-style:normal!important}img{max-width:100%;display:block;margin:0 auto}.icon-gplus:before{margin-left:-1px!important}.page_index main,.page_index > hr{display:none!important}a,::before,::after,img,figure,article,li,#fixed-tabs,#header,#banner,h1,h2,h3,h4,h5,h6,.btn,.btn-alt,.btn:before,.btn-alt:before{transition:all .2s}i{display:inline}*,::before,::after{box-sizing:border-box;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}[class*=" icon-"]:before,[class^=icon-]:before{line-height:1!important;display:block!important}.clearfix:before,.clearfix:after{display:table;content:" "}.clearfix:after{clear:both}.shadow{box-shadow:0 0 3px #000}img{max-width:100%}a,.btn{cursor:pointer}header{z-index:99}footer{z-index:100}
 .animated{-webkit-animation-duration:2s;animation-duration:2s;-webkit-animation-fill-mode:both;animation-fill-mode:both}@-webkit-keyframes slideIn{from{transform:translate3d(0,-100%,0)}to{transform:translate3d(0,0,0)}}@keyframes slideIn{from{transform:translate3d(0,-100%,0)}to{transform:translate3d(0,0,0)}}.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.animated.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}.pulse{-webkit-animation-name:pulse;animation-name:pulse}@-webkit-keyframes pulse{from{transform:scale3d(1,1,1)}50%{transform:scale3d(1.05,1.05,1.05)}to{transform:scale3d(1,1,1)}}@keyframes pulse{from{transform:scale3d(1,1,1)}50%{transform:scale3d(1.05,1.05,1.05)}to{transform:scale3d(1,1,1)}}.fadeIn{-webkit-animation-name:fadeIn;animation-name:fadeIn}@-webkit-keyframes fadeIn{from{opacity:0}to{opacity:1}}@keyframes fadeIn{from{opacity:0}to{opacity:1}}.fadeInDown{-webkit-animation-name:fadeInDown;animation-name:fadeInDown}@-webkit-keyframes fadeInDown{from{opacity:0;transform:translate3d(0,-100%,0)}to{opacity:1;transform:none}}@keyframes fadeInDown{from{opacity:0;transform:translate3d(0,-100%,0)}to{opacity:1;transform:none}}.fadeInLeft{-webkit-animation-name:fadeInLeft;animation-name:fadeInLeft}@-webkit-keyframes fadeInLeft{from{opacity:0;transform:translate3d(-100%,0,0)}to{opacity:1;transform:none}}@keyframes fadeInLeft{from{opacity:0;transform:translate3d(-100%,0,0)}to{opacity:1;transform:none}}.fadeInRight{-webkit-animation-name:fadeInRight;animation-name:fadeInRight}@-webkit-keyframes fadeInRight{from{opacity:0;transform:translate3d(100%,0,0)}to{opacity:1;transform:none}}@keyframes fadeInRight{from{opacity:0;transform:translate3d(100%,0,0)}to{opacity:1;transform:none}}.fadeInUp{-webkit-animation-name:fadeInUp;animation-name:fadeInUp}@-webkit-keyframes fadeInUp{from{opacity:0;transform:translate3d(0,100%,0)}to{opacity:1;transform:none}}@keyframes fadeInUp{from{opacity:0;transform:translate3d(0,100%,0)}to{opacity:1;transform:none}}.fadeOut{-webkit-animation-name:fadeOut;animation-name:fadeOut}@-webkit-keyframes fadeOut{from{opacity:1}to{opacity:0}}@keyframes fadeOut{from{opacity:1}to{opacity:0}}.zoomIn{-webkit-animation-name:zoomIn;animation-name:zoomIn}@-webkit-keyframes zoomIn{from{opacity:0;transform:scale3d(0.3,0.3,0.3)}50%{opacity:1}}@keyframes zoomIn{from{opacity:0;transform:scale3d(0.3,0.3,0.3)}50%{opacity:1}}.slideInDown{-webkit-animation-name:slideInDown;animation-name:slideInDown}@-webkit-keyframes slideInDown{from{transform:translate3d(0,-100%,0);visibility:visible}to{transform:translate3d(0,0,0)}}@keyframes slideInDown{from{transform:translate3d(0,-100%,0);visibility:visible}to{transform:translate3d(0,0,0)}}.slideInLeft{-webkit-animation-name:slideInLeft;animation-name:slideInLeft}@-webkit-keyframes slideInLeft{from{transform:translate3d(-100%,0,0);visibility:visible}to{transform:translate3d(0,0,0)}}@keyframes slideInLeft{from{transform:translate3d(-100%,0,0);visibility:visible}to{transform:translate3d(0,0,0)}}.slideInRight{-webkit-animation-name:slideInRight;animation-name:slideInRight}@-webkit-keyframes slideInRight{from{transform:translate3d(100%,0,0);visibility:visible}to{transform:translate3d(0,0,0)}}@keyframes slideInRight{from{transform:translate3d(100%,0,0);visibility:visible}to{transform:translate3d(0,0,0)}}.slideInUp{-webkit-animation-name:slideInUp;animation-name:slideInUp}@-webkit-keyframes slideInUp{from{transform:translate3d(0,100%,0);visibility:visible}to{transform:translate3d(0,0,0)}}@keyframes slideInUp{from{transform:translate3d(0,100%,0);visibility:visible}to{transform:translate3d(0,0,0)}}
 .flex-ed,.col-flex-ed{display:flex}.flex-ed{flex-direction:row}.col-flex-ed{flex-flow:column}star{line-height:1.5;margin:7px auto;display:block}star:after{font-size:26px;font-family:'fontello';font-weight:400;margin:0;font-style:normal;content:'\e80f \e80f \e80f \e80f \e80f';color:#fcd800;padding:0 10px}
@@ -32,10 +30,10 @@
 }
 
 
-$primary: #6BBC5B;
-$secondary:#006BB0;
-$font: "Spartan", sans-serif;
-$font2: "Spartan", sans-serif;
+$primary: #F95F30;
+$secondary:#444747;
+$font: 'Mulish', sans-serif;
+$font2: 'Mulish', sans-serif;
 $text: #000;
 $icon-bkg: rgba(15, 15, 76,.05);
 
@@ -129,13 +127,13 @@ header{position:relative;padding:15px 10px;z-index:100;background-color: #fff;
 				padding: 10px;
 				justify-content: center;
 				border-radius: 0;
-				font-size: 14px;
+				font-size: 16px;
 				min-width: auto;
                 text-align:center;
                 background: #EAEEF2;
 				text-transform: uppercase;
 				span {
-					width: 100%;font-size: 28px;
+					width: 100%;font-size: 30px;
 				  }
 			}
 			.phone, .btn {
@@ -149,7 +147,7 @@ header{position:relative;padding:15px 10px;z-index:100;background-color: #fff;
 					width: 100%;color: #000;text-align:center;
 				}
 			  }
-			.phone {background-color: $primary;font-size: 18px;color: #fff;line-height: 1.3;font-weight: 600;
+			.phone {background-color: $primary;font-size: 20px;color: #fff;line-height: 1.3;font-weight: 600;
 				span {text-transform: uppercase;font-size: 16px;color: #fff;font-weight: 700;letter-spacing: 1px;}
 			}
 		}
@@ -185,15 +183,15 @@ p {
     figure {display:none;
         img {width: 100%;}
     }
-    article {padding: 20px 0;flex: 0 1 56%;
+    article {padding: 20px 0;max-width: 870px;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content:center;
         align-self: center;
-        #top-text {text-align:left;line-height: 1;font-size: 45px;color: #000;font-weight: 500; margin: 10px 50px 10px 100px;}
+        #top-text {text-align:left;line-height: 50px;font-size: 45px;color: #000;font-weight: 500; margin: 10px 50px 10px 100px;}
         h1 {color: #fff;margin: 20px 0;
-            text-shadow: 5px 5px 5px black; font: 800 125px/1 $font;text-align:left;
+            text-shadow: 5px 5px 5px rgba(0,0,0,0.7); font: 800 125px/1 $font;text-align:left;
              big {color: $primary;width: 100%;display:block;font-size: 175px;}
         }
         h2 {font-size: 45px; color: #fff;font-family: $font;font-weight:600}
@@ -207,7 +205,7 @@ p {
     .content{ max-width: 1300px; margin: auto; background-color: #f0f0f0; 
         .call{padding: 40px 10px; display: flex; align-items: center; justify-content: space-around; background-color: #fff;
             article {flex: 0 1 815px;
-                p{font-weight: 500; font-size: 50px; padding: 10px; color: $text; font-family: $font; text-align: left; letter-spacing: -.02em;line-height: 71px;}
+                p{font-weight: 500; font-size: 50px; padding: 10px; color: $text; font-family: $font; text-align: left; line-height: 71px;}
                 a{color: $primary;
                     &:hover {color: $text;}
                 }
@@ -246,7 +244,7 @@ p {
             .smalltext { margin-top: 30px; color: $text; font-size: 20px; font-weight: 700; font-style: normal; letter-spacing: normal; line-height: 1; }
         }
     }
-    .use-it-very-bottom-text .big {line-height: normal;color: #fff !important; max-width: 1100px;margin: auto;margin-top: 50px;font-size: 36px;font-weight: 400;font-family: $font;}
+    .use-it-very-bottom-text .big {line-height: 40px;color: #fff !important; max-width: 1100px;margin: auto;margin-top: 50px;font-size: 36px;font-weight: 400;font-family: $font;}
 }
 
 footer :is(input, textarea) {background-color: #f0f0f0 !important;}
@@ -264,7 +262,7 @@ footer{overflow:hidden; padding:40px 0 0;background-color:$text; background: #ff
         &:after {content: ''; background-color: $secondary; position: absolute; height: 5px; width: 85px; bottom: -20px; right: 50%; transform: translate(50%);}
     }
     article {
-    .phy {font-family: $font; font-weight: normal; font-size: 18px; color: $text;margin: 10px auto;
+    .phy {font-family: $font; font-weight: normal; font-size: 20px; color: $text;margin: 10px auto;
         &:hover {color: $primary;}
     }
     .phone {font-size: 41px;font-family: $font2;}
@@ -309,8 +307,8 @@ figcaption{text-align:center; background: #000; text-transform: uppercase; paddi
 
 
 /* ------------- Copy -------------- */
-.copy {margin-top:20px;padding:30px 10px 50px; background-color:#fff;margin:auto; font:400 16px/1.4 $font; color:#1a1a1a;; 
-   a, p {font:400 16px/1.4 $font; color:#fff; letter-spacing: 0.6px;}
+.copy {margin-top:20px;padding:30px 10px 50px; background-color:#fff;margin:auto; font:400 18px/1.4 $font; color:#1a1a1a;; 
+   a, p {font:400 18px/1.4 $font; color:#fff; letter-spacing: 0.6px;}
    a {color: $primary;}
     p {margin: 20px auto; max-width: 1090px;}
     a:hover{color:$secondary;text-decoration:underline}
@@ -322,7 +320,7 @@ figcaption{text-align:center; background: #000; text-transform: uppercase; paddi
 
 
 .simple{margin:0 0 5px;
-    .btn{width:260px;font-size:16px;font-weight:700;padding:15px 10px;border:1px solid $primary;background-color:$primary;color:#fff;text-transform:uppercase;
+    .btn{width:260px;font-size:20px;font-weight:700;padding:15px 10px;border:1px solid $primary;background-color:$primary;color:#fff;text-transform:uppercase;
         &:hover{background-color:$secondary;color:#fff}
     }
     input,select{height:35px}
@@ -333,10 +331,10 @@ figcaption{text-align:center; background: #000; text-transform: uppercase; paddi
 
 hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14,14,15,0.35);margin-top:30px;}
 
-::-webkit-input-placeholder{color:#fff}
-::-moz-placeholder{color:#fff}
-:-ms-input-placeholder{color:#fff}
-:-moz-placeholder{color:#fff}
+::-webkit-input-placeholder{color:#fff;opacity: 1;}
+::-moz-placeholder{color:#fff;opacity: 1;}
+:-ms-input-placeholder{color:#fff;opacity: 1;}
+:-moz-placeholder{color:#fff;opacity: 1;}
 
 
 /* -- COUNTDOWN TIMER -- */
@@ -439,6 +437,7 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
     footer .split article {flex: 100%;padding: 20px 0;}
 }
 @media (max-width: 740px) {
+    .smile .content .call figure figcaption {font-size: 16px;}
     #banner figure {display: block;background-image: none;}
     footer h2:first-of-type {margin-bottom: 40px;}
     #nav .header-buttons{margin: 0; padding: 3px 5px;}
@@ -501,7 +500,7 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
     .split article .btn{margin-bottom:20px;min-width:auto}
     #team figure{display:table}
     #services h3{margin-top:10px}
-    .copy{padding-bottom:20px;font-size:14px}
+    .copy{padding-bottom:20px;}
     #fixed-tabs a{font-size:14px}
     .services .flex-ed img {max-width:200px;}
     .smile .use-banner article div figcaption span {padding: 5px;}

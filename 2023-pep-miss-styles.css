@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@300;400;700&display=swap");
 .progress, sub, sup {
   vertical-align: baseline;
 }
@@ -615,12 +614,12 @@ star:after {
 }
 
 #fixed-tabs .call {
-  background-color: #006BB0;
+  background-color: #444747;
 }
 
 #fixed-tabs .ra {
   flex: 0 1 50%;
-  background-color: #6BBC5B;
+  background-color: #F95F30;
 }
 
 #fixed-tabs .ra, #fixed-tabs .call {
@@ -654,12 +653,12 @@ body {
   background: #F8F8F8;
   text-align: center;
   color: #000;
-  font: 400 18px/26px "Spartan", sans-serif;
+  font: 400 18px/26px "Mulish", sans-serif;
 }
 
 p {
   color: #000;
-  font: 400 18px/1.6 "Spartan", sans-serif;
+  font: 400 18px/1.6 "Mulish", sans-serif;
   letter-spacing: 0.36px;
 }
 
@@ -667,22 +666,22 @@ a {
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
-  color: #006BB0;
+  color: #444747;
 }
 
 a:hover {
-  color: #006BB0;
+  color: #444747;
 }
 
 h1, h2 h3, h4, h5, h6 {
-  font-family: "Spartan", sans-serif;
+  font-family: "Mulish", sans-serif;
   text-align: center;
 }
 
 h1 {
   margin: 0;
-  color: #006BB0;
-  font: 400 50px/1.3 "Spartan", sans-serif;
+  color: #444747;
+  font: 400 50px/1.3 "Mulish", sans-serif;
   letter-spacing: 1.1px;
 }
 
@@ -692,26 +691,26 @@ h1 small {
 }
 
 h2 {
-  font: normal 142px/1.1 "Spartan", sans-serif;
-  color: #006BB0;
+  font: normal 142px/1.1 "Mulish", sans-serif;
+  color: #444747;
   margin: 10px 0;
 }
 h2.big {
-  font-family: "Spartan", sans-serif;
+  font-family: "Mulish", sans-serif;
   font-weight: normal;
   font-size: 137px;
   letter-spacing: -0.04em;
   color: #000;
 }
 h2 span {
-  font-family: "Spartan", sans-serif;
+  font-family: "Mulish", sans-serif;
   font-weight: normal;
   font-size: 88px !important;
 }
 
 h3, .h3 {
-  font: 700 30px/1 "Spartan", sans-serif;
-  color: #006BB0;
+  font: 700 30px/1 "Mulish", sans-serif;
+  color: #444747;
   margin: 15px auto 10px;
   letter-spacing: 0.75px;
 }
@@ -755,7 +754,7 @@ main ul li:before {
   transform: translate(-50%, -50%);
   width: 100%;
   color: #000;
-  font: 700 15px/1 "Spartan", sans-serif, sans-serif;
+  font: 700 15px/1 "Mulish", sans-serif, sans-serif;
   text-transform: uppercase;
   letter-spacing: 1.5px;
   text-align: center;
@@ -780,15 +779,15 @@ main ul li:before {
 .play i:before {
   margin: auto;
   padding-left: 5px;
-  color: #6BBC5B;
+  color: #F95F30;
 }
 
 .play:hover {
-  color: #006BB0;
+  color: #444747;
 }
 
 .play:hover i {
-  background-color: #006BB0;
+  background-color: #444747;
   color: #fff;
 }
 
@@ -796,7 +795,7 @@ main ul li:before {
 [data-embed] .close, [data-vimeo] .close {
   cursor: pointer;
   line-height: 1;
-  background-color: #6BBC5B;
+  background-color: #F95F30;
   color: #fff;
   padding: 8px;
   text-transform: uppercase;
@@ -815,7 +814,7 @@ main ul li:before {
   margin-bottom: 5px;
 }
 [data-embed] .close:focus, [data-vimeo] .close:focus {
-  background-color: #52a242;
+  background-color: #ef3d07;
 }
 
 [data-embed] .close:hover, [data-vimeo] .close:hover {
@@ -834,9 +833,9 @@ main ul li:before {
   padding: 15px 20px;
   text-align: center;
   color: #fff;
-  background-color: #6BBC5B;
+  background-color: #F95F30;
   min-width: 250px;
-  font: 700 13px/1.1 "Spartan", sans-serif;
+  font: 700 13px/1.1 "Mulish", sans-serif;
   border-radius: 6px;
   letter-spacing: 1.8px;
 }
@@ -865,7 +864,7 @@ header #nav a i:before {
   padding: 7px;
   width: 35px;
   height: 35px;
-  background-color: #6BBC5B;
+  background-color: #F95F30;
   border-radius: 50%;
   display: flex !important;
   justify-content: center;
@@ -876,13 +875,13 @@ header #nav a.btn {
   border-radius: 40px;
   color: #fff;
   font-size: 24px;
-  font-family: "Spartan", sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 header #nav a.btn:hover {
-  background-color: #006BB0;
+  background-color: #444747;
 }
 header #nav a.btn i {
-  color: #6BBC5B;
+  color: #F95F30;
 }
 header #nav a.btn i:before {
   background-color: #fff;
@@ -898,7 +897,7 @@ header #nav .phone {
   font-size: 32px;
 }
 header #nav .phone:hover {
-  color: #6BBC5B;
+  color: #F95F30;
 }
 header #nav .phy {
   font-size: 22px;
@@ -908,7 +907,7 @@ header #nav .phy {
   letter-spacing: 0.47px;
 }
 header #nav .phy:hover {
-  color: #6BBC5B;
+  color: #F95F30;
 }
 header #nav > * {
   display: flex;
@@ -929,7 +928,7 @@ header #nav #mobile-btns .btn {
   padding: 10px;
   justify-content: center;
   border-radius: 0;
-  font-size: 14px;
+  font-size: 16px;
   min-width: auto;
   text-align: center;
   background: #EAEEF2;
@@ -937,7 +936,7 @@ header #nav #mobile-btns .btn {
 }
 header #nav #mobile-btns .btn span {
   width: 100%;
-  font-size: 28px;
+  font-size: 30px;
 }
 header #nav #mobile-btns .phone, header #nav #mobile-btns .btn {
   display: flex;
@@ -953,8 +952,8 @@ header #nav #mobile-btns .phone span, header #nav #mobile-btns .btn span {
   text-align: center;
 }
 header #nav #mobile-btns .phone {
-  background-color: #6BBC5B;
-  font-size: 18px;
+  background-color: #F95F30;
+  font-size: 20px;
   color: #fff;
   line-height: 1.3;
   font-weight: 600;
@@ -968,13 +967,13 @@ header #nav #mobile-btns .phone span {
 }
 
 .phone {
-  color: #6BBC5B;
-  font: 700 30px/30px "Spartan", sans-serif;
+  color: #F95F30;
+  font: 700 30px/30px "Mulish", sans-serif;
   display: block;
   letter-spacing: 0.5px;
 }
 .phone:hover {
-  color: #006BB0;
+  color: #444747;
 }
 .phone span {
   display: block;
@@ -1060,7 +1059,7 @@ p.big {
   background-color: #00538E;
   max-height: 900px;
   overflow: hidden;
-  border-bottom: 10px solid #6BBC5B;
+  border-bottom: 10px solid #F95F30;
   position: relative;
 }
 #banner > * {
@@ -1075,7 +1074,7 @@ p.big {
 }
 #banner article {
   padding: 20px 0;
-  flex: 0 1 56%;
+  max-width: 870px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -1084,7 +1083,7 @@ p.big {
 }
 #banner article #top-text {
   text-align: left;
-  line-height: 1;
+  line-height: 50px;
   font-size: 45px;
   color: #000;
   font-weight: 500;
@@ -1093,12 +1092,12 @@ p.big {
 #banner article h1 {
   color: #fff;
   margin: 20px 0;
-  text-shadow: 5px 5px 5px black;
-  font: 800 125px/1 "Spartan", sans-serif;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+  font: 800 125px/1 "Mulish", sans-serif;
   text-align: left;
 }
 #banner article h1 big {
-  color: #6BBC5B;
+  color: #F95F30;
   width: 100%;
   display: block;
   font-size: 175px;
@@ -1106,18 +1105,18 @@ p.big {
 #banner article h2 {
   font-size: 45px;
   color: #fff;
-  font-family: "Spartan", sans-serif;
+  font-family: "Mulish", sans-serif;
   font-weight: 600;
 }
 #banner article p {
   color: #000;
   font-size: 24px;
   line-height: 32px;
-  font-family: "Spartan", sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 
 .smile {
-  background-color: #006BB0;
+  background-color: #444747;
 }
 .smile #main-form {
   padding: 80px 0;
@@ -1148,13 +1147,12 @@ p.big {
   font-size: 50px;
   padding: 10px;
   color: #000;
-  font-family: "Spartan", sans-serif;
+  font-family: "Mulish", sans-serif;
   text-align: left;
-  letter-spacing: -0.02em;
   line-height: 71px;
 }
 .smile .content .call article a {
-  color: #6BBC5B;
+  color: #F95F30;
 }
 .smile .content .call article a:hover {
   color: #000;
@@ -1175,7 +1173,7 @@ p.big {
   width: 100%;
 }
 .smile .content .call figure figcaption a:hover {
-  color: #6BBC5B;
+  color: #F95F30;
 }
 .smile .form {
   background-color: #f0f0f0;
@@ -1229,6 +1227,7 @@ p.big {
 }
 .smile .form .simple .btn {
   width: 100%;
+  margin-top: 10px;
 }
 .smile .form ::-webkit-input-placeholder {
   color: #000;
@@ -1265,7 +1264,7 @@ p.big {
   flex-direction: column;
 }
 .smile #clockdiv > div span {
-  color: #6BBC5B;
+  color: #F95F30;
   font-size: 40px;
   font-weight: 700;
   font-style: normal;
@@ -1282,14 +1281,14 @@ p.big {
   line-height: 1;
 }
 .smile .use-it-very-bottom-text .big {
-  line-height: normal;
+  line-height: 40px;
   color: #fff !important;
   max-width: 1100px;
   margin: auto;
   margin-top: 50px;
   font-size: 36px;
   font-weight: 400;
-  font-family: "Spartan", sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 
 footer :is(input, textarea) {
@@ -1333,7 +1332,7 @@ footer {
   background: #fff;
 }
 footer h2 {
-  font: 500 45px/1.2 "Spartan", sans-serif !important;
+  font: 500 45px/1.2 "Mulish", sans-serif !important;
   color: #000;
   text-align: center;
   margin: 0 auto 20px;
@@ -1341,7 +1340,7 @@ footer h2 {
 }
 footer h2:after {
   content: "";
-  background-color: #006BB0;
+  background-color: #444747;
   position: absolute;
   height: 5px;
   width: 85px;
@@ -1350,18 +1349,18 @@ footer h2:after {
   transform: translate(50%);
 }
 footer article .phy {
-  font-family: "Spartan", sans-serif;
+  font-family: "Mulish", sans-serif;
   font-weight: normal;
-  font-size: 18px;
+  font-size: 20px;
   color: #000;
   margin: 10px auto;
 }
 footer article .phy:hover {
-  color: #6BBC5B;
+  color: #F95F30;
 }
 footer article .phone {
   font-size: 41px;
-  font-family: "Spartan", sans-serif;
+  font-family: "Mulish", sans-serif;
 }
 footer article form {
   padding: 0 !important;
@@ -1396,7 +1395,7 @@ footer .split article:last-of-type h2 {
 footer .split article p {
   margin-top: 20px;
   text-align: center;
-  font: 400 32px/1.2 "Spartan", sans-serif;
+  font: 400 32px/1.2 "Mulish", sans-serif;
   letter-spacing: 0.03em;
   margin-bottom: 10px;
   color: #000;
@@ -1405,7 +1404,7 @@ footer .split article p span:first-child {
   font-size: 20px;
 }
 footer .split article p .phone-footer {
-  color: #6BBC5B;
+  color: #F95F30;
 }
 footer .split article p small {
   font-size: 19px;
@@ -1446,13 +1445,13 @@ figcaption {
   padding: 5px;
 }
 figcaption span {
-  font-family: "Spartan", sans-serif;
+  font-family: "Mulish", sans-serif;
   font-weight: bold;
   font-size: 16px;
   color: #fff;
 }
 figcaption p {
-  font: 400 18px/1 "Spartan", sans-serif;
+  font: 400 18px/1 "Mulish", sans-serif;
   text-transform: uppercase;
   color: #fff;
 }
@@ -1461,7 +1460,7 @@ figcaption strong {
   font-weight: 400;
   display: block;
   font-size: 22px;
-  font-family: "Spartan", sans-serif;
+  font-family: "Mulish", sans-serif;
   text-transform: uppercase;
   margin-bottom: 0;
 }
@@ -1473,10 +1472,10 @@ figcaption .address {
   font-size: 14px;
 }
 figcaption .address:hover {
-  color: #6BBC5B;
+  color: #F95F30;
 }
 figcaption:hover p {
-  color: #6BBC5B;
+  color: #F95F30;
 }
 
 .stamp {
@@ -1492,23 +1491,23 @@ figcaption:hover p {
   padding: 30px 10px 50px;
   background-color: #fff;
   margin: auto;
-  font: 400 16px/1.4 "Spartan", sans-serif;
+  font: 400 18px/1.4 "Mulish", sans-serif;
   color: #1a1a1a;
 }
 .copy a, .copy p {
-  font: 400 16px/1.4 "Spartan", sans-serif;
+  font: 400 18px/1.4 "Mulish", sans-serif;
   color: #fff;
   letter-spacing: 0.6px;
 }
 .copy a {
-  color: #6BBC5B;
+  color: #F95F30;
 }
 .copy p {
   margin: 20px auto;
   max-width: 1090px;
 }
 .copy a:hover {
-  color: #006BB0;
+  color: #444747;
   text-decoration: underline;
 }
 .copy span {
@@ -1520,16 +1519,16 @@ figcaption:hover p {
 }
 .simple .btn {
   width: 260px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
   padding: 15px 10px;
-  border: 1px solid #6BBC5B;
-  background-color: #6BBC5B;
+  border: 1px solid #F95F30;
+  background-color: #F95F30;
   color: #fff;
   text-transform: uppercase;
 }
 .simple .btn:hover {
-  background-color: #006BB0;
+  background-color: #444747;
   color: #fff;
 }
 .simple input, .simple select {
@@ -1551,7 +1550,7 @@ figcaption:hover p {
   color: #000;
 }
 .simple input:focus, .simple textarea:focus, .simple .btn:focus, .simple select:focus {
-  box-shadow: inset 0 -3px 0 #6BBC5B;
+  box-shadow: inset 0 -3px 0 #F95F30;
 }
 
 hr {
@@ -1562,18 +1561,22 @@ hr {
 
 ::-webkit-input-placeholder {
   color: #fff;
+  opacity: 1;
 }
 
 ::-moz-placeholder {
   color: #fff;
+  opacity: 1;
 }
 
 :-ms-input-placeholder {
   color: #fff;
+  opacity: 1;
 }
 
 :-moz-placeholder {
   color: #fff;
+  opacity: 1;
 }
 
 /* -- COUNTDOWN TIMER -- */
@@ -1604,7 +1607,7 @@ hr {
 #countdown #count span {
   line-height: 1.5;
   margin: 0;
-  color: #6BBC5B;
+  color: #F95F30;
   padding-bottom: 10px;
   width: 100%;
   padding: 20px 0 30px;
@@ -1839,6 +1842,9 @@ hr {
   }
 }
 @media (max-width: 740px) {
+  .smile .content .call figure figcaption {
+    font-size: 16px;
+  }
   #banner figure {
     display: block;
     background-image: none;
@@ -2027,7 +2033,6 @@ hr {
   }
   .copy {
     padding-bottom: 20px;
-    font-size: 14px;
   }
   #fixed-tabs a {
     font-size: 14px;
