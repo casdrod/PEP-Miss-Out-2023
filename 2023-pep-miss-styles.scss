@@ -30,8 +30,9 @@
 }
 
 
-$primary: #F95F30;
-$secondary:#444747;
+$primary: #EFD239;
+$secondary:#0E1F61;
+$tertiary: #187088;
 $font: 'Mulish', sans-serif;
 $font2: 'Mulish', sans-serif;
 $text: #000;
@@ -44,7 +45,7 @@ $icon-bkg: rgba(15, 15, 76,.05);
 #fixed-tabs .map {background-color:#eaeef2;color: #000;}
 #fixed-tabs .call {background-color:$secondary;}
 #fixed-tabs .ra {flex: 0 1 50%; background-color: $primary;}
-#fixed-tabs .ra, #fixed-tabs .call {color: #fff;}
+#fixed-tabs .call {color: #fff;}
 @media (min-width: 1031px) {
 #fixed-tabs{display:none}
 }
@@ -147,8 +148,8 @@ header{position:relative;padding:15px 10px;z-index:100;background-color: #fff;
 					width: 100%;color: #000;text-align:center;
 				}
 			  }
-			.phone {background-color: $primary;font-size: 20px;color: #fff;line-height: 1.3;font-weight: 600;
-				span {text-transform: uppercase;font-size: 16px;color: #fff;font-weight: 700;letter-spacing: 1px;}
+			.phone {background-color: $primary;font-size: 20px;color: #000;line-height: 1.3;font-weight: 600;
+				span {text-transform: uppercase;font-size: 16px;color: #000;font-weight: 700;letter-spacing: 1px;}
 			}
 		}
     }
@@ -178,7 +179,7 @@ p {
 
 
 /*Use it or Lose it Page*/
-#banner {display: flex;background: url(assets/images/pep-miss-banner-bkg.jpg);background-size:cover;background-repeat:no-repeat;flex-wrap: wrap;background-color: #00538E;max-height: 900px;overflow:hidden;border-bottom: 10px solid $primary;position: relative;
+#banner {display: flex;background: url(assets/images/pep-miss-banner-bkg.jpg);background-size:cover;background-repeat:no-repeat;flex-wrap: wrap;background-color: #00538E;max-height: 900px;overflow:hidden;border-bottom: 10px solid $tertiary;position: relative;
     > * {max-height: 900px;position: relative;}
     figure {display:none;
         img {width: 100%;}
@@ -211,10 +212,11 @@ p {
                 }
             }
             figure{flex: 0 0 400px; position: relative;
-                figcaption { background-color: rgba(255,255,255,0.9); bottom: 0; position: absolute; text-transform: uppercase; padding: 5px 15px; font-weight: 600; font-size: 18px;letter-spacing: 1.5px;width: 100%;
+                figcaption { display:flex;flex-wrap:wrap;justify-content: center;align-items:center;background-color: rgba(255,255,255,0.9); bottom: 0; position: absolute; text-transform: uppercase; padding: 5px 15px; font-weight: 600; font-size: 18px;letter-spacing: 1.5px;width: 100%;
                     a {
                         &:hover {color: $primary;}
                     }
+                    span {margin: 0 10px;color: $secondary;height: 26px;}
                 }
             }
         }
@@ -309,9 +311,9 @@ figcaption{text-align:center; background: #000; text-transform: uppercase; paddi
 /* ------------- Copy -------------- */
 .copy {margin-top:20px;padding:30px 10px 50px; background-color:#fff;margin:auto; font:400 18px/1.4 $font; color:#1a1a1a;; 
    a, p {font:400 18px/1.4 $font; color:#fff; letter-spacing: 0.6px;}
-   a {color: $primary;}
+   a {color: $tertiary;}
     p {margin: 20px auto; max-width: 1090px;}
-    a:hover{color:$secondary;text-decoration:underline}
+    a:hover{color:$primary;}
     span {margin: 0 2px;}
 
 }
@@ -511,8 +513,26 @@ hr{border-bottom:1px solid rgba(151,151,151,0.74);box-shadow:5px 1px 1px rgba(14
 }
 
 @media (max-width: 370px) {
-    #nav{display:block}
-    #nav .btn{margin:10px auto}
+    header {
+        #nav {display:block;
+            .logo {margin: 0; padding: 20px;}
+            #mobile-btns {
+                .phone {font-size: 16px;}
+                .btn {font-size: 14px;}
+            }
+        }
+    }
+    #banner {
+        article {
+            #top-text {font-size: 40px;}
+        }
+    }
+    .smile .content .call {
+        figure {
+            figcaption {font-size: 14px; padding: 5px 0;}
+        }
+        article p {font-size: 30px;}
+    }
     .use-it-top-image div figcaption span {padding: 10px 20px;}
     .double-list .flex-ed .option-list .list-body .list-bkg {display: none;}
 }
